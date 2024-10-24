@@ -1,0 +1,10 @@
+<div class="container">
+    <h2>Campaigns</h2>
+    <ul class="campaigns-list">
+      <li *ngFor="let campaign of campaigns" class="campaign-item">
+        <span class="campaign-name">{{ campaign.name }}</span>
+        <span class="campaign-budget">{{ campaign.budget | currency }}</span>
+      </li>
+    </ul>
+  </div>
+  
