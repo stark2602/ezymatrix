@@ -1,5 +1,6 @@
 **Features**
 **Backend (Node.js)**
+
 API service development with Node.js and Express.
 Simulated data fetching for leads and campaigns from dummy CRM and marketing platforms.
 MongoDB integration for data storage.
@@ -7,7 +8,10 @@ ETL process (Extract, Transform, Load) to clean and transform raw data into mean
 API endpoints for generating reports (CSV/PDF).
 Email notifications for specific alerts based on conditions.
 Data models are built using Mongoose to interact with MongoDB.
+
+
 **Frontend (Angular)**
+
 Displays Leads and Campaigns data fetched from the backend.
 Responsive UI/UX with basic styling for data presentation.
 Simple and clean HTML and CSS structure.
@@ -17,6 +21,8 @@ Frontend: Angular, HTML, CSS, Bootstrap
 Database: MongoDB (local)
 Reporting: CSV/PDF generation with file download
 Alerts: Email notifications (using nodemailer or other service)
+
+
 **API Endpoints**
 1. **Leads API**
 URL: /api/leads
@@ -34,11 +40,13 @@ Description: Generates a report in either CSV or PDF format based on the type pa
 URL: /api/alerts
 Method: POST
 Description: Sends email alerts when certain conditions are met (e.g., threshold-based alerts for metrics).
+
 **Setup Instructions**
 **Prerequisites**
 Node.js (v16+)
 MongoDB (Ensure it's installed and running locally on port 27017)
 Angular CLI (v12+)
+
 1. **Clone the repository**
 bash
 Copy code
